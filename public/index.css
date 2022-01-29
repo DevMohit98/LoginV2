@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+.outside-window {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-window {
+  width: 50vw;
+  height: auto;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-title {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ff8a65;
+}
+.form-label {
+  font-size: 2rem;
+  color: #725b53;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.form-control {
+  font-size: 1.5rem;
+  color: #424242;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom-color: #424242;
+  background-color: #fafafa;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 1px;
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: #fafafa;
+  border-color: #424242;
+}
+.forgot-title {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #40c4ff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.forgot-title:hover {
+  color: #40c4ff;
+}
+.btn {
+  font-size: 1.5rem;
+  width: auto;
+  box-shadow: none !important;
+}
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+.btn-primary {
+  background-color: #ff8a65;
+  border-color: #ff8a65;
+}
+.btn-primary:hover {
+  background-color: #ff8a65;
+  border-color: #ff8a65;
+}
